@@ -1,0 +1,29 @@
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    gap:10px;
+    height: 50%;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    margin-bottom: 5%;
+}
+.total {
+    display: grid;
+    justify-content: center;
+    flex-direction: row;
+}
+.red {
+color: red;
+}
+.btncart {
+    border: none;
+    background-color: white;
+}
